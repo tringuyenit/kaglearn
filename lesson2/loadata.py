@@ -11,7 +11,6 @@ print(type(melbourne_data))
 # print a summary of the data in Melbourne data
 print(melbourne_data.describe())
 
-
 a = melbourne_data.describe()
 
 # print the 'Mean' of the 'Price'
