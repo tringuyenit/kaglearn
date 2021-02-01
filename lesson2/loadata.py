@@ -8,6 +8,7 @@ melbourne_data = pd.read_csv(melbourne_file_path)
 
 print(type(melbourne_data))
 
+# print a summary of the data in Melbourne data
 print(melbourne_data.describe())
 
 a = melbourne_data.describe()
